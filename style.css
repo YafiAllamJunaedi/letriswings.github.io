@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Poppins:wght@400;600;700;800&display=swap');
+
+body{
+    margin: 0;
+}
+
+/* span{
+    font-size: 25px;
+    background: linear-gradient(90deg, rgba(127,108,255,1) 0%, rgba(39,185,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+} */
+
+.navbar-container{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navbar-container .logo{
+    font-family: Mulish, sans-serif;
+    font-size: 25px;
+    text-decoration: line-through;
+    color: white;
+    /* background-color: aqua; */
+    text-align: center;
+    margin-bottom: 3%;
+    margin-left: 2%;
+}
+.navbar-container .navbar-wrapper{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    /* background-color: yellow; */
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 55%;
+}
+.navbar-container .navbar-wrapper ul{
+    display: flex;
+}
+.navbar-container .navbar-wrapper ul li{
+    list-style: none;
+}
+/* .navbar-container .navbar-wrapper ul li:hover{
+    cursor: pointer;
+} */
+.navbar-container .navbar-wrapper ul li a{
+    text-decoration: none;
+    margin: 15px;
+    color: white;
+    font-family: Mulish, sans-serif;
+}
+/* .navbar-container .navbar-wrapper ul li a:hover{
+    cursor: pointer;
+    color: yellow;
+} */
+
+.navbar-container .logo{
+    width: 60px;
+    /* display: flex; */
+    height: 50px;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    background-image: url('./Assets/logoo.png');
+    /* background-size: 100%; */
+}
+.daftar{
+    width: 25%;
+    height: 15%;
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rebeccapurple;
+    border: none;
+    color: white;
+    border-radius: 35px;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 5%;
+    margin-left: 37%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.daftar:hover{
+    background-color: white;
+    color: rebeccapurple;
+}
+.landing-page{
+    width: 100%;
+    margin-top: -20px;
+    height: 600px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.landing-page .lp-wrapper{
+    display: flex;
+    width: 90%;
+    height: 60%;
+    /* background-color: yellow; */
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 5%;
+}
+.landing-page .lp-wrapper .text-1-wrapper .l-title{
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    font-size: 30px;
+    line-height: 13px;
+    font-weight: 800;
+    color: white;
+
+}
+.landing-page .lp-wrapper .text-1-wrapper .desc-wrapper{
+    width: 100%;
+    height: 15%;
+    /* background-color: antiquewhite; */
+    margin-top: 8%;
+}
+.landing-page .lp-wrapper .text-1-wrapper .desc-wrapper .l-desc{
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    color: white;
+    font-size: 20px;
+    line-height: 13px;
+    font-weight: 300;
+    /* margin-top: 20px; */
+}
+
+.purple{
+    background: linear-gradient(90deg, rgba(127,108,255,1) 0%, rgba(39,185,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.halal{
+   text-decoration: underline;
+   font-weight: bold;
+}
+.landing-page .green-dust{
+    width: 50%;
+    height: 80%;
+    background-image: url('./Assets/green-dust.png');
+    background-size: 100%;
+    position: absolute;
+    bottom: 50%;
+    left: 28%;
+}
+.landing-page .purple-dust{
+    width: 50%;
+    height: 80%;
+    background-image: url('./Assets/purple-dust.png');
+    background-size: 100%;
+    position: absolute;
+    bottom: 50%;
+    left: 16%;
+}
+.landing-page .green-2{
+    width: 50%;
+    height: 80%;
+    background-image: url('./Assets/green-dust.png');
+    background-size: 100%;
+    position: absolute;
+    /* bottom: %; */
+    top: 28%;
+    left: -15%;
+}
+.landing-page .purple-2{
+    width: 50%;
+    height: 80%;
+    background-image: url('./Assets/purple-dust.png');
+    background-size: 100%;
+    position: absolute;
+    bottom: 10%;
+    top: 28%;
+    left: -10%;
+}
+
+.landing-page .green-3{
+    width: 50%;
+    height: 80%;
+    background-image: url('./Assets/green-dust.png');
+    background-size: 100%;
+    position: absolute;
+    /* bottom: %; */
+    top: 10%;
+    left: 50%;
+}
+.landing-page .purple-3{
+    width: 50%;
+    height: 80%;
+    background-image: url('./Assets/purple-dust.png');
+    background-size: 100%;
+    position: absolute;
+    bottom: 10%;
+    top: 26%;
+    left: 50%;
+}
+.our{
+    color: white;
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    font-weight: 800;
+}
+.main-container{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+}
+.main-container .border-container{
+    width: 100%;
+    height: 25%;
+    /* background-color: gold; */
+    margin-top: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main-container .border-container .border-wrapper{
+    width: 45%;
+    height: 30%;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+.main-container .border-container .border-left{
+    width: 100%;
+    height: 3px;
+    background-color: rebeccapurple;
+}
+.main-container .border-container-2{
+    width: 50%;
+    height: 25%;
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: brown; */
+}
+.main-container .border-container-2 .border-right{
+    width: 100%;
+    height: 4px;
+    background-color: rebeccapurple;
+    /* margin-left: 15%; */
+}
+
+.menu-container{
+    width: 100%;
+    height: 440px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+.menu-container .menu-wrapper{
+    width: 90%;
+    display: flex;
+    height: 90%;
+    /* background-color: beige; */
+}
+.menu-container .menu-wrapper .food-container{
+    /* display: flex; */
+    width: 20%;
+    height: 70%;
+    /* background-color: brown; */
+    margin: 40px;
+}
+.menu-container .menu-wrapper .food-container .food-name{
+    text-align: center;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+.menu-container .menu-wrapper .food-container .food-img{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    background-image: url('./Assets/ayam.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.menu-container .menu-wrapper .food-container .bgr{
+    background-image: url('./Assets/burger.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.menu-container .menu-wrapper .food-container .smy{
+    background-image: url('./Assets/somay.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.menu-container .menu-wrapper .food-container .mie{
+    background-image: url('./Assets/mie.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.drink-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: black;
+    margin-top: -80px;
+    justify-content: center;
+}
+.drink-container .drink-wrapper{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    /* background-color: chocolate; */
+}
+
+/* drink-content */
+.drink-container .drink-wrapper .drink-card{
+    width: 23%;
+    height: 80%;
+    /* background-color: salmon; */
+}
+.drink-container .drink-wrapper .drink-card .drink-img{
+    width: 65%;
+    height: 75%;
+    background-image: url('./Assets/jus-stroberi.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 20%;
+}
+
+.drink-container .drink-wrapper .drink-card .drink-name{
+    text-align: center;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.drink-container .drink-wrapper .drink-card .tea{
+    width: 65%;
+    height: 75%;
+    background-image: url('./Assets/lemon-tea.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 35%;
+}
+.drink-container .drink-wrapper .drink-card .teax{
+    text-align: center;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 65px;
+}
+
+.drink-container .drink-wrapper .drink-card .sj{
+    width: 65%;
+    height: 75%;
+    background-image: url('./Assets/sjeruk.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.drink-container .drink-wrapper .drink-card .sjt{
+    text-align: center;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 37%;
+    margin-top: 1%;
+}
+
+.drink-container .drink-wrapper .drink-card .lm{
+    width: 65%;
+    height: 75%;
+    background-image: url('./Assets/lime-juice-2.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    margin-left: 55%;
+    margin-top: 3%;
+}
+.drink-container .drink-wrapper .drink-card .lmt    {
+    text-align: center;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 65%;
+    margin-top: 1%;
+}
+
+.main-container{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    display: flex;
+}
+.main-container .border-container{
+    width: 100%;
+    height: 25%;
+    /* background-color: gold; */
+    margin-top: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.main-container .border-container .border-wrapper{
+    width: 45%;
+    height: 30%;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+.main-container .border-container .border-left{
+    width: 100%;
+    height: 3px;
+    background-color: rebeccapurple;
+}
+.main-container .border-container-2{
+    width: 50%;
+    height: 25%;
+    display: flex;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: flex-end;
+    /* background-color: brown; */
+}
+.main-container .border-container-2 .border-right{
+    width: 100%;
+    height: 4px;
+    background-color: rebeccapurple;
+    /* margin-left: 15%; */
+}
+.guest{
+    color: white;
+    text-align: center;
+    font-family: Mulish, sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+}
+.guest .guestz{
+    background: linear-gradient(90deg, rgba(127,108,255,1) 0%, rgba(39,185,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.guest-star-container{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+.guest-star-wrapper{
+    width: 90%;
+    height: 80%;
+    /* background-color: chartreuse; */
+    margin-top: 2%;
+    display: flex;
+}
+.guest-star-wrapper .guest-1{
+    width: 16%;
+    height: 90%;
+    /* background-color: saddlebrown; */
+    position: relative;
+    bottom: 15%;
+    right: 6%;
+}
+.guest-star-wrapper .guest-1 .hash-1{
+    background-image: url('./Assets/1.png');
+    background-size: 100%;
+    width: 50%;
+    height: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 70%;
+    top: 40%;
+}
+.guest-star-wrapper .guest-1 .guest-img{
+    width: 100%;
+    height: 50%;
+    background-image: url('./Assets/cogil.jpeg');
+    background-size: 150%;
+    /* background-color: aquamarine; */
+    /* position: relative;  */
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+.guest-star-wrapper .guest-1 .guest-name{
+    text-align: center;
+    color: white;
+    font-family: Mulish, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    position: relative;
+    /* background-color: aqua; */
+    width: 200%;
+    margin-left: -40%;
+    margin-top: 35%;
+}
+/*  */
+.guest-star-wrapper .guest-1{
+    width: 16%;
+    height: 90%;
+    /* background-color: saddlebrown; */
+    margin-left: 15%;
+    position: relative;
+    margin-top: 8%;
+}
+.guest-star-wrapper .guest-1 .hash-2{
+    background-image: url('./Assets/2.png');
+    background-size: 100%;
+    width: 50%;
+    height: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 70%;
+    top: 40%;
+}
+.guest-star-wrapper .guest-1 .rj{
+    width: 100%;
+    height: 50%;
+    background-image: url('./Assets/reja-starboy.jpeg');
+    background-size: 100%;
+    /* background-color: aquamarine; */
+    /* position: relative;  */
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+.guest-star-wrapper .guest-1 .str{
+    text-align: center;
+    color: white;
+    font-family: Mulish, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    position: relative;
+    /* background-color: aqua; */
+    width: 200%;
+    margin-left: -45%;
+    margin-top: 35%;
+}
+/* aim */
+.guest-star-wrapper .guest-1{
+    width: 16%;
+    height: 90%;
+    /* background-color: saddlebrown; */
+    margin-left: 15%;
+    position: relative;
+    margin-top: 8%;
+}
+.guest-star-wrapper .guest-1 .hash-3{
+    background-image: url('./Assets/3.png');
+    background-size: 100%;
+    width: 50%;
+    height: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 70%;
+    top: 40%;
+}
+.guest-star-wrapper .guest-1 .aim{
+    width: 100%;
+    height: 50%;
+    background-image: url('./Assets/aim.jpeg');
+    background-size: 100%;
+    /* background-color: aquamarine; */
+    /* position: relative;  */
+    background-repeat: no-repeat;
+    border-radius: 100%;
+}
+.guest-star-wrapper .guest-1 .aimt{
+    text-align: center;
+    color: white;
+    font-family: Mulish, sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+    position: relative;
+    /* background-color: aqua; */
+    width: 200%;
+    margin-left: -45%;
+    margin-top: 38%;
+}
+
+.last{
+    width: 100%;
+    display: flex;
+    height: 100px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.last-wrapper{
+    text-align: center;
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-weight: 600;
+}
